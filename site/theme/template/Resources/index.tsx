@@ -123,9 +123,10 @@ const Resources = (props: ResourcesProps) => {
   const { localizedPageData, location } = props;
   const { locale } = useIntl();
 
-  const content = React.useMemo(() => injectCards(localizedPageData.content), [
-    localizedPageData.content,
-  ]);
+  const content = React.useMemo(
+    () => injectCards(localizedPageData.content),
+    [localizedPageData.content],
+  );
 
   return (
     <div id="resources-page">

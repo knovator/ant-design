@@ -29,8 +29,7 @@ const MINI_LIST: PanelProps[] = [
     href: 'https://antv.vision',
   },
   {
-    img:
-      'https://gw.alipayobjects.com/zos/antfincdn/888xda6kBc/Ant%252520Design%252520shouyepeitu.svg',
+    img: 'https://gw.alipayobjects.com/zos/antfincdn/888xda6kBc/Ant%252520Design%252520shouyepeitu.svg',
     title: 'Ant Design Pro',
     description: 'app.home.product-pro-slogan',
     href: 'https://pro.ant.design/',
